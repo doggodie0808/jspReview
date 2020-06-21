@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<j2ee:taglib version="2.0" xmlns:j2ee="http://java.sun.com/xml/ns/j2ee">
+	<j2ee:tlib-version>1.0</j2ee:tlib-version>
+	<j2ee:short-name>MySimpleTag</j2ee:short-name>
+	<tag>
+		<name>quickSort</name>
+		<tag-class>com.test.tag.MyTagHandler</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>num1</name>
+			<required>true</required>
+		</attribute>
+		<attribute>
+			<name>num2</name>
+			<required>true</required>
+		</attribute>
+		<attribute>
+			<name>num3</name>
+			<required>true</required>
+		</attribute>
+		<attribute>
+			<name>num4</name>
+			<required>true</required>
+		</attribute>
+		<attribute>
+			<name>num5</name>
+			<required>true</required>
+		</attribute>
+	</tag>
+</j2ee:taglib>
